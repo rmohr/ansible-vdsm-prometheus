@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   author: Roman Mohr <rmohr@redhat.com>
-  description: Install vdsm-prometheus COPR repository
+  description: Install vdsm-prometheus agent for monitoring VMs with Prometheus
   license: GPLv3
   min_ansible_version: 1.4
   platforms:
