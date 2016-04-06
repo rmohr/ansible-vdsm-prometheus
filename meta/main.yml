@@ -1,0 +1,16 @@
+---
+galaxy_info:
+  author: Roman Mohr <rmohr@redhat.com>
+  description: Install vdsm-prometheus COPR repository
+  license: GPLv3
+  min_ansible_version: 1.4
+  platforms:
+  - name: EL
+    versions:
+    - 7
+  - name: Fedora
+    versions:
+    - 22
+    - 23
+  categories:
+  - packaging
