@@ -25,7 +25,7 @@ None.
 Role Variables
 --------------
 
-There only variable available is the `opts` variable in
+The only variable available is the `opts` variable in
 [vars/main.yml](vars/main.yml). The variable allows to set commandline
 arguments for `vdsm-prometheus` on the host. These arguments are passed to
 `vdsm-prometheus` when it is started by `systemd`. To see all possible
@@ -47,7 +47,7 @@ arguments `-no-verify` run the following playbook:
       roles:
         - { role: vdsm-prometheus, opts: "-no-verify" }
 
-An example with disable TLS and without client certificate authentication would
+An example with disabled TLS and without client certificate authentication would
 look like this:
 
     ---
